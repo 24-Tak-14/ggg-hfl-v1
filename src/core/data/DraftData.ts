@@ -1,0 +1,33 @@
+import { DraftProspect, Position } from '../../types';
+
+// This file contains mock data for draft prospects available in the league.
+export const DRAFT_PROSPECTS: DraftProspect[] = [
+  { id: 'DP-QB-01', name: 'Zane "Cannon" Archer', position: 'QB', overall: 85, potential: 95, stats: { throwingPower: 98, vision: 88, agility: 82 } },
+  { id: 'DP-RB-01', name: 'Jett "The Blur" Knox', position: 'RB', overall: 84, potential: 92, stats: { speed: 96, elusiveness: 94, toughness: 80 } },
+  { id: 'DP-WR-01', name: 'Orion "Galaxy" Vega', position: 'WR', overall: 83, potential: 96, stats: { speed: 95, catching: 93, agility: 90 } },
+  { id: 'DP-DL-01', name: 'Goliath "Wrecking Ball" Stone', position: 'DL', overall: 86, potential: 91, stats: { strength: 99, tackling: 92, speed: 78 } },
+  { id: 'DP-LB-01', name: 'Rocco "The Rock" Steele', position: 'LB', overall: 82, potential: 90, stats: { tackling: 95, strength: 88, vision: 85 } },
+  { id: 'DP-CB-01', name: 'Silas "Shadow" Vance', position: 'CB', overall: 81, potential: 94, stats: { speed: 97, agility: 95, vision: 84 } },
+  { id: 'DP-OL-01', name: 'Titus "The Mountain" Ogre', position: 'OL', overall: 88, potential: 89, stats: { strength: 98, toughness: 96 } },
+  { id: 'DP-TE-01', name: 'Max "Clamps"imus', position: 'TE', overall: 80, potential: 91, stats: { catching: 90, strength: 85, speed: 82 } },
+  { id: 'DP-S-01', name: 'Hawk "The Eye" Talon', position: 'S', overall: 79, potential: 93, stats: { vision: 96, tackling: 88, speed: 90 } },
+  { id: 'DP-K-01', name: 'Leo "Goldenfoot" Legstrong', position: 'K', overall: 78, potential: 88, stats: {} },
+  { id: 'DP-QB-02', name: 'Jaxson "The Surgeon" Pierce', position: 'QB', overall: 77, potential: 89, stats: { throwingPower: 90, vision: 85, agility: 78 } },
+  { id: 'DP-RB-02', name: 'Rory "Rhino" O\'Connell', position: 'RB', overall: 76, potential: 85, stats: { speed: 88, elusiveness: 80, toughness: 92 } },
+  { id: 'DP-WR-02', name: 'Kai "Starlight" Ito', position: 'WR', overall: 75, potential: 90, stats: { speed: 93, catching: 88, agility: 86 } },
+  { id: 'DP-DL-02', name: 'Dante "Inferno" Black', position: 'DL', overall: 79, potential: 88, stats: { strength: 94, tackling: 89, speed: 75 } },
+  { id: 'DP-LB-02', name: 'Victor "The Vise" Grimm', position: 'LB', overall: 78, potential: 87, stats: { tackling: 92, strength: 86, vision: 82 } },
+  { id: 'DP-CB-02', name: 'Flynn "Ghost" Ryder', position: 'CB', overall: 77, potential: 89, stats: { speed: 95, agility: 92, vision: 80 } },
+  { id: 'DP-OL-02', name: 'Brock "The Wall" Mason', position: 'OL', overall: 80, potential: 84, stats: { strength: 95, toughness: 93 } },
+  { id: 'DP-TE-02', name: 'Cody "Clutch" Hayes', position: 'TE', overall: 74, potential: 86, stats: { catching: 88, strength: 82, speed: 79 } },
+  { id: 'DP-S-02', name: 'Griffin "The Sentinel" Poe', position: 'S', overall: 76, potential: 88, stats: { vision: 92, tackling: 85, speed: 88 } },
+  { id: 'DP-P-01', name: 'Brendan "The Boot" O\'Malley', position: 'P', overall: 72, potential: 85, stats: {} },
+  { id: 'DP-QB-03', name: 'Leo Valdez', position: 'QB', overall: 71, potential: 91, stats: { throwingPower: 88, vision: 80, agility: 85 } },
+  { id: 'DP-RB-03', name: 'Samson "The Strong" Jones', position: 'RB', overall: 70, potential: 84, stats: { speed: 85, elusiveness: 75, toughness: 95 } },
+  { id: 'DP-WR-03', name: 'Caleb "The Comet" Swift', position: 'WR', overall: 73, potential: 88, stats: { speed: 96, catching: 85, agility: 84 } },
+  { id: 'DP-DL-03', name: 'Mongo "The Mauler" Khan', position: 'DL', overall: 74, potential: 82, stats: { strength: 96, tackling: 85, speed: 70 } },
+  { id: 'DP-LB-03', name: 'Dexter "The Decimator" Crane', position: 'LB', overall: 75, potential: 85, stats: { tackling: 90, strength: 84, vision: 80 } },
+  { id: 'DP-CB-03', name: 'Remy "The Viper" LeBeau', position: 'CB', overall: 72, potential: 90, stats: { speed: 94, agility: 93, vision: 78 } },
+  { id: 'DP-OL-03', name: 'Gus "The Guard" Bricks', position: 'OL', overall: 78, potential: 80, stats: { strength: 94, toughness: 91 } },
+  { id: 'DP-TE-03', name: 'Owen "The Owl" Shaw', position: 'TE', overall: 70, potential: 85, stats: { catching: 86, strength: 80, speed: 78 } },
+];
